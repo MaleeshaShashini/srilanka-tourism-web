@@ -10,7 +10,7 @@ function Hero() {
                 className="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style={{ zIndex: -1 }}
               >
-              <source src="/public/video/hero-video.mp4" type="video/mp4" />
+              <source src="/video/hero-video.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
         </video>
 
