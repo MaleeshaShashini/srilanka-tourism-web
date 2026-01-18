@@ -1,6 +1,13 @@
+import Navbar from './Navbar'
+
+
 function Hero() {
     return(
         <div className="position-relative w-100 vh-100 overflow-hidden">
+
+        <div className="position-absolute top-0 start-0 w-100" style={{ zIndex: 1000 }}>
+                <Navbar />
+              </div>
 
         <video
                 autoPlay

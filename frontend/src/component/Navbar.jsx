@@ -10,19 +10,19 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a className="nav-link active fw-bold" aria-current="page" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Destinations</a>
+              <a className="nav-link fw-bold" href="#">Destinations</a>
             </li>
             <li className="nav-item">
-                          <a className="nav-link" href="#">About</a>
+                          <a className="nav-link fw-bold" href="#">About</a>
                         </li>
             <li className="nav-item">
-                          <a className="nav-link" href="#">Contact</a>
+                          <a className="nav-link fw-bold" href="#">Contact</a>
                         </li>
             <li className="nav-item ms-lg-3 mt-3 mt-lg-0">
-                          <a href="#" className="btn btn-outline-success rounded-pill px-4 fw-bold btn-book">
+                          <a href="#" className="btn btn-success rounded-pill px-4 fw-bold btn-book">
                             Book Now
                           </a>
                         </li>
