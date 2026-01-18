@@ -3,7 +3,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg custom-navbar">
       <div className="container-fluid ">
-        <a className="navbar-brand page-title" href="#">Ceylon Vibes</a>
+        <a className="page-title px-2" href="#"><img src="/img/Srilanka_logo.webp" alt="Logo" height="60"/></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
