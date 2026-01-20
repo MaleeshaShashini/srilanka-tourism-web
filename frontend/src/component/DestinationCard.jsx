@@ -15,7 +15,7 @@ function DestinationCard({ image, title, description }){
           <div className="card-body">
             <h5 className="card-title fw-bold">{title}</h5>
             <p className="card-text text-muted"> {description}</p>
-            <a href="#" className="btn btn-primary btn-outline-success rounded-pill btn-sm">View Details</a>
+            <a href="#" className="btn btn-outline-success rounded-pill btn-sm">View Details</a>
           </div>
         </div>
 

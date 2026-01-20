@@ -13,7 +13,7 @@ function Navbar() {
               <a className="nav-link active fw-bold" aria-current="page" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-bold" href="#">Destinations</a>
+              <a className="nav-link fw-bold" href="#destinations">Destinations</a>
             </li>
             <li className="nav-item">
                           <a className="nav-link fw-bold" href="#">About</a>
