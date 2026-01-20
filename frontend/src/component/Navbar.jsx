@@ -16,7 +16,7 @@ function Navbar() {
               <a className="nav-link fw-bold" href="#destinations">Destinations</a>
             </li>
             <li className="nav-item">
-                          <a className="nav-link fw-bold" href="#">About</a>
+                          <a className="nav-link fw-bold" href="#">Plan Your Trip</a>
                         </li>
             <li className="nav-item">
                           <a className="nav-link fw-bold" href="#">Contact</a>

@@ -44,16 +44,32 @@ function Destinations(){
            },
 
            {
+                image: "/img/festival.jpg",
+                title:"Cultural Festivals",
+                description:"Witness vibrant traditions and grand cultural processions."
+           },
+
+           {
+                image: "/img/train.jpg",
+                title:"Scenic Train Journeys",
+                description:"Enjoy world-famous scenic train rides through misty mountains."
+           },
+{
+                image: "/img/colombo.jpg",
+                title:"City Life & Shopping",
+                description:"Experience the vibrant culture, shopping, and nightlife of Colombo."
+           },
+           {
                 image: "/img/ayurvedic.jpg",
                 title:"Wellness & Ayurveda",
                 description:"Rejuvenate your mind and body with traditional healing therapies."
            },
-           {
-                image: "/img/colombo.jpg",
-                title:"City Life & Shopping",
-                description:"Experience the vibrant culture, shopping, and nightlife of Colombo."
-           }
 
+           {
+                image: "/img/food.jpg",
+                title:"Flavors of Ceylon",
+                description:"Savor authentic local cuisine and aromatic spice gardens."
+           }
          ];
     return (
             <div className="container py-5" id="destinations">
