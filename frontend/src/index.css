@@ -33,3 +33,9 @@
     font-weight: 700;
     border-bottom: 2px solid #ffc107 !important;
 }
+
+.destination-img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
