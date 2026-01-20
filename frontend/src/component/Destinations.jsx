@@ -55,5 +55,27 @@ function Destinations(){
            }
 
          ];
+    return (
+            <div className="container py-5" id="destinations">
+                <div className="text-center mb-5">
+                    <h2 className="fw-bold text-success display-5">Popular Destinations</h2>
+                    <p className="lead text-muted">Explore the beauty of the paradise island</p>
+                </div>
+
+                <div className="row g-4">
+                    {destinations.map((place, index) => (
+                        <div key={index} className="col-12 col-md-6 col-lg-4">
+                            <DestinationCard
+                                image={place.image}
+                                title={place.title}
+                                description={place.description}
+                            />
+                        </div>
+                    ))}
+                </div>
+            </div>
+        );
+
+
     }
 export default Destinations;
