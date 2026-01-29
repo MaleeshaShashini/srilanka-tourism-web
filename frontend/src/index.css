@@ -43,3 +43,18 @@ html {
     height: 225px;
     object-fit: cover;
 }
+.plan-custom-section {
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+  min-height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                    url('/img/SriLanka.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
