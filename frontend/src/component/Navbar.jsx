@@ -16,10 +16,10 @@ function Navbar() {
               <a className="nav-link fw-bold" href="#destinations">Destinations</a>
             </li>
             <li className="nav-item">
-                          <a className="nav-link fw-bold" href="#">Plan Your Trip</a>
+                          <a className="nav-link fw-bold" href="#plan">Plan Your Trip</a>
                         </li>
             <li className="nav-item">
-                          <a className="nav-link fw-bold" href="#">Contact</a>
+                          <a className="nav-link fw-bold" href="#footer">Contact</a>
                         </li>
             <li className="nav-item ms-lg-3 mt-3 mt-lg-0">
                           <a href="#" className="btn btn-success rounded-pill px-4 fw-bold btn-book">

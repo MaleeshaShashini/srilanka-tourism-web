@@ -3,7 +3,7 @@ import React from 'react';
 function Plan() {
 
   return (
-      <section className="plan-custom-section" id="plan-trip">
+      <section className="plan-custom-section" id="plan">
 
             <div className="container position-relative text-center" >
                 <h2 className="display-4 fw-bold mb-4" >Your Journey Begins Here</h2>
